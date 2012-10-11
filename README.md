@@ -1,4 +1,11 @@
-web-services-aula
+Aula Web Services 
 =================
 
-Aula de webservice
+Exercício em python de web services
+
+Web Services
+-------------------
+
+<b>Aluno:</b> Bruno Ferreira da Costa
+<b>Professor:</b> Rafael Alencar
+4° Período - TSI
