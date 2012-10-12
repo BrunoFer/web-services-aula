@@ -1,13 +1,15 @@
 # coding: utf-8
 
 import sys
-
-url = 'https://api.github.com/users/{}'.format(sys.argv[1])
-
 import json
 import requests
 import Image
 import urllib
+
+import PIL
+from PIL import Image
+
+url = 'https://api.github.com/users/{}'.format(sys.argv[1])
 
 r = requests.get(url)
 data = json.loads(r.read())
@@ -26,9 +28,6 @@ if 'blog' in data:
     print 'Blog: ', data['blog']
 if 'avatar_url' in data:
     print 'Avatar: ', data['avatar_url']
-
-import PIL
-from PIL import Image
 
 basewidth = 300
 urllib.urlretrieve(data['avatar_url'],'imagem.png')
