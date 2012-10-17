@@ -1,0 +1,42 @@
+{ 
+	"nometurma": "TSI2011",
+	"instituicao": "IFET - Campus Barbacena",
+	"curso" : "TSI",
+	"disciplinas": [
+		{
+			"nome": "Webservices",
+			"periodo": 4,
+			"professor": "Rafael Alencar",
+			"bancadas" : [
+				{ 
+					"nomebancada" : "bancada01",
+    				"alunos" : [
+						{"nome": "Arthur", "nota": 10, "id":1},
+  	        			{"nome": "Matheus", "nota": 9, "id":2}
+	       			]
+	       		},
+	       		{
+					"nomebancada" : "bancada02",
+    				"alunos" : [
+						{"nome": "Charles", "nota": 8, "id":1},
+  	        			{"nome": "Vinícius", "nota": 8, "id":2}
+	       			]
+	       		},
+	       		{ 
+					"nomebancada" : "bancada03",
+    				"alunos" : [
+						{"nome": "Guilherme", "nota": 10, "id":1},
+  	        			{"nome": "Bruno", "nota": 9, "id":2}
+	       			]
+	       		},
+	       		{ 
+					"nomebancada" : "bancada04",
+    				"alunos" : [
+						{"nome": "Paulo vitor", "nota": 8, "id":1},
+  	        			{"nome": "Bene", "nota": 7, "id":2}
+	       			]
+	       		}
+	       	]
+		}
+	] 
+}

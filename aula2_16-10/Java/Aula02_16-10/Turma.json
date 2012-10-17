@@ -1,0 +1,24 @@
+{ 
+  "turmas" : [
+
+  { "turma" : "bancada03", "periodo" : "4º",
+    "alunos" : [
+		{"nome": "Guilherme", "nota": 5, "id":1},
+  	        {"nome": "Bruno", "nota": 9, "id":2}
+	       ]},
+
+  { "turma" : "bancada02", "periodo" : "4º", 
+    "alunos" : [
+		{"nome": "Vinicius", "nota": 8, "id":1},
+	        {"nome": "Charles", "nota": 9, "id":2}
+ 	       ]},
+
+  { "turma" : "bancada01", "periodo" : "4º",
+    "alunos" : [
+                {"nome": "Arthur", "nota": 7, "id":1},
+	        {"nome": "Matheus", "nota": 9, "id":2}
+               ]}
+
+  ],
+  "curso" : "TSI"
+}
