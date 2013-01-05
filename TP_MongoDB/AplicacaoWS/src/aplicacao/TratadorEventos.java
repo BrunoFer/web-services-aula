@@ -61,7 +61,7 @@ public class TratadorEventos implements ActionListener {
 						OutputStreamWriter out = new OutputStreamWriter(
 								httpCon.getOutputStream());
 						out.write(json);
-						JOptionPane.showMessageDialog(null, "Gravado no banco",
+						JOptionPane.showMessageDialog(null, "Tentativa de gravar no banco efetuada!",
 								"Cadastro de alunos",
 								JOptionPane.INFORMATION_MESSAGE);
 						out.close();
