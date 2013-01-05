@@ -15,6 +15,7 @@ import javax.swing.JTextField;
 
 import net.miginfocom.swing.MigLayout;
 
+import aplicacao.MenuPrincipal;
 import aplicacao.TratadorEventos;
 
 public class JanelaPrincipal extends JFrame {
@@ -36,6 +37,7 @@ public class JanelaPrincipal extends JFrame {
 	private ButtonGroup botoesSexo = new ButtonGroup();
 	private JSeparator separacao1 = new JSeparator();
 	private TratadorEventos tratadorEventos;
+	private MenuPrincipal menuJanela = new MenuPrincipal();
 	
 	public JanelaPrincipal() {
 		super();
@@ -45,6 +47,8 @@ public class JanelaPrincipal extends JFrame {
 		tratadorEventos = new TratadorEventos(this);
 		MigLayout migLayout = new MigLayout("wrap 3");
 		setLayout(migLayout);
+
+		setJMenuBar(menuJanela);
 		
 		botoesSexo.add(masc);
 		botoesSexo.add(fem);
